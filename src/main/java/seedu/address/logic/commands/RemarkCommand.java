@@ -37,6 +37,12 @@ public class RemarkCommand extends Command {
     private final Index index;
     private final Remark remark;
 
+    /**
+     * Create Remark Command.
+     *
+     * @param index
+     * @param remark Remark associated with the command.
+     */
     public RemarkCommand(Index index, Remark remark) {
         requireAllNonNull(index, remark);
         this.index = index;
