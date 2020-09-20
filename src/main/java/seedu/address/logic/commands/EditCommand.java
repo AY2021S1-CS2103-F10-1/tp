@@ -177,7 +177,9 @@ public class EditCommand extends Command {
             this.remark = remark;
         }
 
-        public Remark getRemark() { return remark; }
+        public Remark getRemark() {
+            return remark;
+        }
 
         /**
          * Sets {@code tags} to this object's {@code tags}.
