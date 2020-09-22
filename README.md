@@ -133,7 +133,7 @@ canoE-COACH data is saved in the hard disk automatically after any command that 
 
 Action | Format, Examples
 --------|------------------
-**Add** | `add n/NAME p/PHONE_NUMBER e/EMAIL a/ACADEMIC_YEAR [t/TAG]…​` <br> e.g., `add n/James Ho p/22224444 e/jamesho@example.com ay/5 t/friend t/colleague`
+**Add** | `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​` <br> e.g., `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague`
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
 **Filter** | `filter n/KEYWORD [MORE_KEYWORDS]` <br> e.g., `filter n/alex n/david`
 **Clear** | `clear`
